@@ -13,8 +13,11 @@ pip install [module]
 python app.py
 ```
 
-* settings
-```
-- requirements.txt
+* requirements.txt
+
 module list like Gemfile of ruby
 ```
+pip freeze > requirements.txt # create module list
+pip install -r requirements.txt # import module list
+```
+
