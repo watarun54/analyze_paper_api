@@ -21,3 +21,8 @@ pip freeze > requirements.txt # create module list
 pip install -r requirements.txt # import module list
 ```
 
+* deploy flask with (ubuntu16.04/nginx/uWSGI)
+
+[flask を uWSGI と Nginx でデプロイする](https://qiita.com/ekzemplaro/items/a570f79de254428a151d)
+
+[How To Serve Flask Applications with uWSGI and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-16-04)
