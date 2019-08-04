@@ -29,6 +29,8 @@ cd [this repos]
 pyenv local 3.6.6
 virtualenv venv
 source venv/bin/activate
+pip install -r requirements.txt
+pip install uwsgi
 ...
 ```
 
