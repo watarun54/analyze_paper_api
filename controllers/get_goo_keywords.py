@@ -5,4 +5,4 @@ def get_keywords(url):
     if "google.com" not in parsed_url.netloc: return None
     qs = urlparse(url).query
     qs_d = parse_qs(qs)
-    return qs_d['q'][0]
+    return qs_d['q'][0] + " | Google Search"
