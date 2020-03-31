@@ -25,3 +25,9 @@ docker-compose up -d
 ```
 
 Access the web endpoint at [http://localhost:80/scrape_paper](http://localhost:80/scrape_paper)
+
+e.g.
+```
+curl -X POST -H 'Accept:application/json' -H 'Content-Type:application/json' \
+  -d '{"url":"http://example.com"}' http://localhost:80/scrape_paper
+```
